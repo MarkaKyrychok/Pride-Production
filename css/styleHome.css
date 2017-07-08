@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+#index a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#index .banner {
+    font-family: "Open Sans";
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/Home-bg.jpg');
+    background-position: center center;
+    background-size: auto 100vh;
+    background-repeat: repeat-x;
+}
+
+#index .banner .banner_enter {
+    width: 24.3vw;
+    height: 7.5vw;
+    margin: 0 auto;
+    position: relative;
+    top: calc(50vh + 1.4vw);
+    transform: translateY(-100%);
+    border-bottom: 0.36vw solid #fff;
+    border-right: 0.36vw solid #fff;
+    border-left: 0.36vw solid #fff;
+    text-align: center;
+}
+
+#index .banner .banner_enter .border {
+    border-top: 0.36vw solid #fff;
+    position: absolute;
+    top: 0;
+    width: 8.137%;
+}
+
+#index .banner .banner_enter .left-border {
+    left: 0;
+}
+
+#index .banner .banner_enter .right-border {
+    right: 0;
+} 
+
+#index .banner .enter_brand {
+    text-transform: uppercase;
+    position: relative;
+    top: -1.4vw;
+    font-size: 2.8vw;
+    line-height: 2.8vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+#index .banner .enter_link {
+    font-weight: 100;
+    position: relative;
+    bottom: 1.2vw;
+    font-size: 1.3vw;
+}
+
+#index .footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#index .footer .contacts {
+    font-size: 0.8vw;
+    margin-bottom: 2vh;
+}
+
+#index .footer .social {
+    margin-bottom: 2.2vh;
+}
+
+#index .footer .social-link img {
+    width: 2.3437vw;
+}
